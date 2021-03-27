@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+    background-color: aliceblue;
+}
+
+.main_div {
+    margin: 20px auto;
+    display: block;
+    width: 500px;
+    background-color: aqua;
+    box-shadow:
+            0 0 2px rgba(0, 0, 0, 0.061),
+            0 0 5px rgba(0, 0, 0, 0.096),
+            0 0 10px rgba(0, 0, 0, 0.12),
+            0 0 18px rgba(0, 0, 0, 0.14),
+            0 0 33px rgba(0, 0, 0, 0.165),
+            0 0 80px rgba(0, 0, 0, 0.23);
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+th {
+    padding: 10px 20px 10px 20px;
+    width: 0;
+}
+
+article {
+    display: block;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 30px;
+    box-shadow:
+            0 0 2px rgba(0, 0, 0, 0.061),
+            0 0 5px rgba(0, 0, 0, 0.096),
+            0 0 10px rgba(0, 0, 0, 0.12),
+            0 0 18px rgba(0, 0, 0, 0.14),
+            0 0 33px rgba(0, 0, 0, 0.165),
+            0 0 80px rgba(0, 0, 0, 0.23);
+}
+
+figure {
+    text-align: left;
+}
+
+article p {
+    text-align: justify;
+}
